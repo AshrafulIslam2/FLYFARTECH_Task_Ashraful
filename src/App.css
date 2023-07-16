@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.half-triangle {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent; /* Adjust the width of the triangle */
+  border-right: 20px solid transparent; /* Adjust the width of the triangle */
+  border-bottom: 10px solid #333333; /* Adjust the height and change the color of the triangle */
+  position: relative;
+}
